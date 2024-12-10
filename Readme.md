@@ -1,4 +1,4 @@
-# Calculateur de Checksum avec Flask et Redis
+# Haschage avec docker et redis
 
 Ce projet est une application Flask qui permet de calculer les valeurs de hachage (checksum) d'une chaîne de caractères entrée par l'utilisateur, en utilisant différents algorithmes de hachage tels que SHA-256, SHA-1 et MD5. Les résultats sont stockés dans une base de données Redis pour une gestion efficace des données. L'application utilise Docker pour simplifier l'exécution et la gestion des dépendances.
 
