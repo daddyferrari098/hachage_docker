@@ -9,7 +9,11 @@ services:
       - .:/app
     depends_on:
       - redis  # J'ai utilisé Redis
+    # TODO No you don't !
+    # Redis is not used in your code
+    # you are not using volumes to persist data
 
+  #TODO the 
   redis:
     image: redis:latest
     container_name: redis
